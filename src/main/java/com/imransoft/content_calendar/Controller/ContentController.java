@@ -1,12 +1,8 @@
 package com.imransoft.content_calendar.Controller;
 
 import com.imransoft.content_calendar.model.Content;
-import com.imransoft.content_calendar.repository.ContentCollectionRepository;
-import com.imransoft.content_calendar.repository.ContentJdbcTemplateRepository;
 import com.imransoft.content_calendar.repository.ContentRepository;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
